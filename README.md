@@ -8,3 +8,6 @@ This is a example configuration of PHP_Codesniffer for a laravel app.
    For laravel sail run `sail composer require --dev squizlabs/php_codesniffer`.
 2. Make sure the following requirements are added. `ext-tokenizer`, `ext-xmlwriter`, `ext-simplexml`.
 3. Now you can run `php artisan phpcs:scan` and `php artisan phpcs:fix` to test and fix any errors.
+
+## PhpStorm PHP_CodeSniffer
+https://www.jetbrains.com/help/phpstorm/using-php-code-sniffer.html
