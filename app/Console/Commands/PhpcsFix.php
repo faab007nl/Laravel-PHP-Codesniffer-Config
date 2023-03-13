@@ -19,7 +19,7 @@ class PhpcsFix extends Command
      *
      * @var string
      */
-    protected $description = 'Run the PHP_Codesniffer fix command';
+    protected $description = 'Make PHP_CodeSniffer try fix any errors in the codebase';
 
     /**
      * Create a new command instance.
@@ -38,7 +38,7 @@ class PhpcsFix extends Command
      */
     public function handle()
     {
-        echo "Running PHP_CodeSniffer fix command...\n";
+        echo "Fixing any errors found in the codebase...\n";
 
         $output = shell_exec("./vendor/bin/phpcbf --standard=PSR12 ./app");
         if (strlen($output) > 0) {
