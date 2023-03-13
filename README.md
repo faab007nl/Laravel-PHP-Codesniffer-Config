@@ -1,0 +1,1 @@
+# Laravel-PHP-Codesniffer-Config
